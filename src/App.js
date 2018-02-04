@@ -10,6 +10,7 @@ const Container = styled.div`
 const Nav = styled.div`
   border-right: 1px solid #bbb;
   flex-basis: 20%;
+  min-width: 150px;
   overflow-y: auto;
   background-color: #24292e;
   color: #fff;
