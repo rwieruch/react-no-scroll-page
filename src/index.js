@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import 'core-js/fn/array/from';
+import 'core-js/fn/array/fill';
 
 import './index.css';
 import App from './App';
