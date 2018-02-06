@@ -57,12 +57,8 @@ const Button = styled.button`
   background: none;
   cursor: pointer;
   border: 1px solid #000;
-  min-height: 50px;
-  min-width: 150px;
-  @media (max-width: 600px) {
-      min-height: 100px;
-      min-width: 300px;
-    }
+  min-height: ${window.devicePixelRatio * 25}px;
+  min-width: ${window.devicePixelRatio * 75}px;
 `;
 
 class App extends Component {
